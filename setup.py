@@ -5,7 +5,7 @@ with open("app/README.md", "r") as f:
 
 setup(
     name="bus_wizard",
-    version="0.0.1",
+    version="0.0.7",
     description="A package containing a bus wizard",
     package_dir={"": "app"},
     packages=find_packages(where="app"),
@@ -24,5 +24,5 @@ setup(
     extras_require={
         "dev": ["pytest>=7.0", "twine>=4.0.2"],
     },
-    python_requires=">=3.10",
+    python_requires=">=3.9",
 )
